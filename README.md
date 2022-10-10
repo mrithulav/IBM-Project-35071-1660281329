@@ -77,7 +77,8 @@
 ![image](https://user-images.githubusercontent.com/70817219/194914420-9ef53158-9413-447b-a7f3-846d5ed567cb.png)
 
     ⦿ Dataset folder contains the training and testing images for training our model.
-    ⦿ We are building a Flask Application which needs  HTML pages stored in the templates folder and a python script app.py for server side scripting
+    ⦿ We are building a Flask Application which needs  HTML pages stored in the templates 
+       folder and a python script app.py for server side scripting
     ⦿ we need the model which is saved and the saved model in this content is gesture.h5
     ⦿ The static folder will contain js and css files.
     ⦿ Whenever we upload a image to predict, that images is saved in uploads folder.
@@ -91,29 +92,25 @@
 
 >       ➼ Ideation phase
 >           
->           ⦿ [Empathy Map] - 
+>           ⦿ [Brainstroming- Idea Generation] -
+
+            ⦿ [Problem statement] -
 >           
->           ⦿ [Literature Review] -
->           
->           ⦿ [Ideation] - 
+>           ⦿ [Empathy Map Canvas] - 
 >           
 >       ➼ Project Design Phase – I
 >            
->           ⦿ [Proposed Solution] -
+>           ⦿ [Proposed Solution Fit] -
 >           
->           ⦿ [Prepare Solution Fit] -
+>           ⦿ [Prepare Solution] -
 >           
 >           ⦿ [Solution Architecture] -
 >           
 >       ➼ Project Design Phase – II
->       
->           ⦿ [Customer Journey] -
->           
->           ⦿ [Functional Requirement] -
 >           
 >           ⦿ [Data Flow Diagrams]-
 >           
->           ⦿ [Technology Architecture] -
+>           ⦿ [Solution Requirement ] -
 >           
 >       ➼ Project Planning Phase
 >       
