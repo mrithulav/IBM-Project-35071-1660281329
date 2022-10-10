@@ -1,131 +1,135 @@
-# AI based discourse for Banking Industry <img src="https://user-images.githubusercontent.com/83297844/194119925-3be6535b-ea6e-47e6-be8c-b5398df7138b.png" alt="InfiniteGraph Logo" width="35"><img src="https://user-images.githubusercontent.com/83297844/194121564-7ad52db3-3e37-4394-a3a1-9ee66ec67cad.png" alt="InfiniteGraph Logo" width="45">
+# A Gesture-Based Tool For Sterile Browsing Of Radiology
 
+## $\color[RGB]{168,109,156} TEAM:$
 
-![](https://img.shields.io/badge/github-orange?style=for-the-badge)
-![](https://img.shields.io/badge/IBM-blueviolet?style=for-the-badge)
-![](https://img.shields.io/badge/AGNI_COLLEGE_OF_TECHNOLOGY-lightgrey?style=for-the-badge)
-
-
-## $\color[RGB]{153,153,255} TEAM:$
-
-    1. Siva Sankari L [TL] - 
+    1. Madhumitha R -312819104044
     
-    2. Mathumitha V -312819205020
+    2. Mrithula V -312819104051
     
-    3. Gokul R - 
+    3. Nandhini Devi N - 312819104053
     
-    4. Gokul S - 
-    
-## $\color[RGB]{153,153,255} PPROBLEM \ STATEMENT:$
- - In the banking sector, they need to provide 24*7 service to customers.
- - Humans cannot provide personalized services to all the customers.
- - Customers need to wait for the availability of customer representatives.
- - Delay in the support to the customers.
- - Huge manpower is needed to provide services to all customers.
- - Customer satisfaction is less in bank customer service.
- - Less touch of personalization in customer relationships.
+    4. Sowmiya T - 312819104073
+
+## $\color[RGB]{168,109,156} INTRODUCTION:$
+
+        ⦿ Humans are able to recognize body and sign language easily. This is possible due to the combination of vision
+    and synaptic interactions that wereformed along brain development . In order to replicate this skill in computers, 
+    some problems need to be solved: how to separate objects of interest in images and which image capture technology and 
+    classification technique are more appropriate, among others.
+
+        ⦿ In this project Gesture based Desktop automation ,First the model is trained pre trained on the images of different
+    hand gestures, such as a showing numbers with fingers as 1 ,2,3,4 . This model uses the integrated webcam to capture the video
+    frame. The image of the gesture captured in the video frame is compared with the Pre-trained model and the gesture is identified. 
+    If the gesture predictes is 1 then images is blurred;2, image is resized;3,image is rotatedm etc.
+
+## $\color[RGB]{168,109,156} PROJECT \ OBJECTIVE:$
+**By the end of this project you will**
+
+    ➼ Know fundamental concepts and techniques of Convolutional Neural Network.
+
+    ➼ Gain a broad understanding of image data.
+
+    ➼ Know how to pre-process/clean the data using different data preprocessing techniques.
+
+    ➼ Know how to build a web application using Flask framework.
+   
+## $\color[RGB]{168,109,156} PROJECT \ FLOW:$
+
+    ⦿ User interacts with the UI (User Interface) to upload the image as input
+
+    ⦿ Depending on the different gesture inputs different operations are applied to the input image.
+
+    ⦿ Once model analyses the gesture, the prediction with operation applied on image is showcased on the UI.
+
+**To accomplish this, we have to complete all the activities and tasks listed below**
+
+    ➼ Data Collection.
+
+        ⦿ Collect the dataset or Create the dataset
+
+    ➼ Data Preprocessing.
+
+        ⦿ Import the ImageDataGenerator library
+        ⦿ Configure ImageDataGenerator class
+        ⦿ Apply ImageDataGenerator functionality to Trainset and Testset
+
+    ➼ Model Building
+
+        ⦿ Import the model building Libraries
+        ⦿ Initializing the model
+        ⦿ Adding Input Layer\
+        ⦿ Adding Hidden Layer
+        ⦿ Adding Output Layer
+        ⦿ Configure the Learning Process
+        ⦿ Training and testing the model
+        ⦿ Save the Model
+
+    ➼ Application Building
+
+        ⦿ Create an HTML file
+        ⦿ Build Python Code
 
 
+## $\color[RGB]{168,109,156} PROJECT \ STRUCTURE:$
+**Create a Project folder which contains files as shown below**
 
 
-## $\color[RGB]{153,153,255} PROJECT \ SOLUTION:$
+![image](https://user-images.githubusercontent.com/70817219/194914420-9ef53158-9413-447b-a7f3-846d5ed567cb.png)
 
-- The solution to the problem is Artificial intelligence in the banking sector makes banks efficient, trustworthy, helpful, and more understanding. It is strengthening the competitive edge of modern banks in this digital era. The growing impact of AI in banking sector minimizes operational costs improves customer support and process automation.
- - Nearly 40% to 50% of financial and banking service providers are using AI in their processes to harness the power of next-generation AI capabilities. The companies believe that AI is the future of banking sector which can perform a range of banking operations in faster, easier, and more secure ways.
- - AI banking Chatbots help customers in many ways. AI-based chatbot service for financial industry is one of the significant use cases of AI in banking sector. AI chatbots in banking are modernizing the way how businesses provide services to their customers.
- - AI chatbots in banking industry can assist customers 24*7 and give accurate responses to their queries. These chatbots provide a personalized experience to users.
- - AI chatbots in banking is providing a better customer experience. 
- - Hence, AI chatbots for banking and finance operations let banks attract customer attention, optimize service quality, and expand the brand mark in the market.
-<img width="900" alt="image" src="https://user-images.githubusercontent.com/83297844/194131389-c3d0024b-8fed-4fd3-aad7-65dcc38ddabe.png" align="center">
+    ⦿ Dataset folder contains the training and testing images for training our model.
+    ⦿ We are building a Flask Application which needs  HTML pages stored in the templates folder and a python script app.py for server side scripting
+    ⦿ we need the model which is saved and the saved model in this content is gesture.h5
+    ⦿ The static folder will contain js and css files.
+    ⦿ Whenever we upload a image to predict, that images is saved in uploads folder.
 
+## $\color[RGB]{168,109,156} TECHNICAL \ ARCHITECTURE:$
 
-## $\color[RGB]{153,153,255} INTRODUCTION:$
-
+![image](https://user-images.githubusercontent.com/70817219/194914841-4fc230f1-53f9-4b5a-8d9a-e902d9fc3581.png)
 
 
+## $\color[RGB]{168,109,156} PROJECT \ WORKFLOW:$
 
-
-In this project, we will be building a chatbot using Watson's assistant. This chat should have the following capabilities:
- - The Bot should be able to guide a customer to create a bank account.
- - The Bot should be able to answer loan queries.
- - The Bot should be able to answer general banking queries.
- - The Bot should be able to answer queries regarding net banking.
-
-## $\color[RGB]{153,153,255} PROJECT \ OBJECTIVE:$
-
-After completing this project, you will learn how to 
-
- ✅Work with Watson Assistant
- 
- ✅Create Skills  in Watson Assistant
- 
- ✅Use Entities, Intents, Dialogues
- 
- ✅Deploy skill to generate a preview link
-
-
-## $\color[RGB]{153,153,255} SERVICES \ USED:$
-- IBM Watson Assistant
-
-![image](https://user-images.githubusercontent.com/83297844/194100388-c8a731b7-06b0-4d8f-ab22-6df3102f8900.png)
-
-## $\color[RGB]{153,153,255} TECHNICAL \ ARCHITECTURE:$
-
-![image](https://user-images.githubusercontent.com/83297844/194111655-ec69a33c-0bec-4a06-8b3b-0ac6b4b2e5a0.png)
-
-
-## $\color[RGB]{153,153,255} PROJECT \ WORKFLOW:$
-
->       * Ideation phase
+>       ➼ Ideation phase
 >           
->           * [Empathy Map] - 
+>           ⦿ [Empathy Map] - 
 >           
->           * [Literature Review] -
+>           ⦿ [Literature Review] -
 >           
->           * [Ideation] - 
+>           ⦿ [Ideation] - 
 >           
->       * Project Design Phase – I
+>       ➼ Project Design Phase – I
 >            
->           * [Proposed Solution] -
+>           ⦿ [Proposed Solution] -
 >           
->           * [Prepare Solution Fit] -
+>           ⦿ [Prepare Solution Fit] -
 >           
->           * [Solution Architecture] -
+>           ⦿ [Solution Architecture] -
 >           
->       * Project Design Phase – II
+>       ➼ Project Design Phase – II
 >       
->           * [Customer Journey] -
+>           ⦿ [Customer Journey] -
 >           
->           * [Functional Requirement] -
+>           ⦿ [Functional Requirement] -
 >           
->           * [Data Flow Diagrams]-
+>           ⦿ [Data Flow Diagrams]-
 >           
->           * [Technology Architecture] -
+>           ⦿ [Technology Architecture] -
 >           
->       * Project Planning Phase
+>       ➼ Project Planning Phase
 >       
->           * [Prepare Milestone & Activity List] -
+>           ⦿ [Prepare Milestone & Activity List] -
 >           
->           * [Sprint Delivery Plan] -
+>           ⦿ [Sprint Delivery Plan] -
 >           
->       * Project Development Phase
+>       ➼ Project Development Phase
 >       
->           * [Project Development - Delivery Of Sprint-1] -
+>           ⦿ [Project Development - Delivery Of Sprint-1] -
 >           
->           * [Project Development - Delivery Of Sprint-2] -     
+>           ⦿ [Project Development - Delivery Of Sprint-2] -     
 >               
->           * [Project Development - Delivery Of Sprint-3]-
+>           ⦿ [Project Development - Delivery Of Sprint-3]-
 >           
->           * [Project Development - Delivery Of Sprint-4] -
+>           ⦿ [Project Development - Delivery Of Sprint-4] -
 >                
-        
-## $\color[RGB]{153,153,255} FINAL \ OUTPUT:$
 
-![image](https://user-images.githubusercontent.com/83297844/194128244-43401b86-e549-4332-a8f0-9160b44df261.png)
-
-![image](https://user-images.githubusercontent.com/83297844/194127546-1f6876df-2f3c-46fb-8f12-2c256393d25b.png)
-
-
-
-
-### IBM Project | Dept of Information Technology | <img src="https://user-images.githubusercontent.com/83297844/194126327-5c9091a6-f2ab-4793-9444-9a07f37aafe0.png" alt="InfiniteGraph Logo" width="20"> Agni College of Technology 
+### IBM Project | Dept of Computer Science and Engineering | <img src="https://user-images.githubusercontent.com/83297844/194126327-5c9091a6-f2ab-4793-9444-9a07f37aafe0.png" alt="InfiniteGraph Logo" width="20"> Agni College of Technology 
