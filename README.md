@@ -1,4 +1,4 @@
-# A Gesture-Based Tool For Sterile Browsing Of Radiology
+# A Gesture-Based Tool For Sterile Browsing Of Radiology Images
 
 ## $\color[RGB]{168,109,156} TEAM:$
 
